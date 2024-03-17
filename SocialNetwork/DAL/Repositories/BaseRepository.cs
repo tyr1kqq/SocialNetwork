@@ -39,7 +39,7 @@ namespace SocialNetwork.DAL.Repositories
 
         private IDbConnection CreateConnection()
         {
-            return new SQLiteConnection("Data Source = DAL/DB/social_network.db; Version = 3");
+            return new SQLiteConnection("Data Source = DAL/DB/social_network.bd.db; Version = 3");
         }
     }
 }
